@@ -1,0 +1,49 @@
+{
+	"pais": {
+		"moneda": "Dolar",
+		"codigodearea": "503",
+		"idiomas": {
+			"oficial": "Español",
+			"autoctono": "Nahuatl",
+			"segundo": "Ingles"
+		},
+		"departamentos": {
+			"departamento": [
+				{
+					"cabecera": "San Salvador",
+					"habitantes": "1,700,000",
+					"altura": "545 MSNM",
+					"areaTerritorial": {
+						"_unidad": "Km2",
+						"__text": "15,000"
+					},
+					"_id": "1",
+					"_nombre": "San Salvador"
+				},
+				{
+					"cabecera": "Santa Tecla",
+					"habitantes": "1,859,640",
+					"altura": "10 MSNM",
+					"areaTerritorial": {
+						"_unidad": "Km2",
+						"__text": "1,653"
+					},
+					"_id": "2",
+					"_nombre": "La Libertad"
+				},
+				{
+					"cabecera": "Santa Ana",
+					"habitantes": "1,000,000",
+					"altura": "855 MSNM",
+					"areaTerritorial": {
+						"_unidad": "Km2",
+						"__text": "17,000"
+					},
+					"_id": "3",
+					"_nombre": "Santa Ana"
+				}
+			]
+		},
+		"_nombre": "El Salvador"
+	}
+}

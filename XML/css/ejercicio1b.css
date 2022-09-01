@@ -1,0 +1,115 @@
+/* ejercicio1B.css   DF20007  */
+
+* {
+    margin:0;
+    padding: 0;
+}
+
+fichero {
+    background-color: #dad161;
+    color: white;
+    font-family: Bahnschrift SemiBold;
+} 
+
+ficha[id]::before {
+    content: "Id: "attr(id)" Fecha: "attr(fechaingreso);
+    color: white;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    font-family: Bahnschrift SemiCondensed;
+}
+
+ficha {
+    width: 700px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #4bbcd8;
+    border-style: solid;
+    border-color: #111010;
+    font-size: 1.4em;
+    display: block;
+}
+
+nombre::before {
+    content: "Nombre: ";
+    display: inline;
+}
+
+nombre {
+    text-align: center;
+    display: inline;
+}
+
+apellido {
+    text-align: center;
+    display: inline;
+}
+
+direccion::before {
+    content: "Direccion: ";
+    display: inline;
+}
+
+direccion {
+    display: block;
+}
+
+telefono::before {
+    content: "Telefono: ";
+    display: inline;
+}
+
+telefono {
+    display: block;
+}
+
+email::before {
+    content: "Correo: ";
+    display: inline;
+}
+
+email {
+    display: block;
+}
+
+urlWebsitePersonal::before {
+    content: "Url Personal: ";
+    display: inline;
+}
+
+urlWebsitePersonal {
+    display: block;
+}
+
+dui::before {
+    content: "DUI: ";
+    display: inline;
+}
+
+dui {
+    display: block;
+}
+
+isss::before {
+    content: "ISSS: ";
+    display: inline;
+}
+
+isss {
+    display: block;
+}
+
+afp::before {
+    content: "AFP: ";
+    display: inline;
+}
+
+afp::after {
+    content: " / Sucursal: "attr(sucursal);
+    display: inline;
+}
+
+afp {
+    display: block;
+}

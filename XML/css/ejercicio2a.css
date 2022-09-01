@@ -1,0 +1,170 @@
+/* ejercicio2a.css   DF20007  */
+
+* {
+    margin:0;
+    padding: 0;
+}
+
+pais {
+    background-color: #ecb47f;
+    color: #fcfcfc;
+    font-family: Bahnschrift SemiBold;
+    width: 600px;
+    margin: 10px auto;
+    border-style: solid;
+    border-color: #111010;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.4em;
+    display: block;
+}
+
+pais::before {
+    content: attr(nombre);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-family: Bahnschrift SemiCondensed;
+    background-color: #288e96;
+    border-style: none solid none solid;
+    border-color: #111010;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+moneda::before {
+    content: "Moneda: ";
+    display: inline;
+}
+
+moneda {
+    content: "Moneda: ";
+    display: block;
+}
+
+codigodearea::before {
+    content: "Area: ";
+    display: inline;
+}
+
+codigodearea {
+    display: block;
+}
+
+idiomas::before {
+    padding-top: 10px;
+    content: "Idiomas: ";
+    display: block;
+}
+
+oficial {
+    display: block;
+}
+
+oficial::before {
+    content: ">";
+    padding-left: 10px;
+    padding-right: 5px;
+    display: inline;
+}
+
+oficial::after {
+    content: " (Oficial)";
+    display: inline
+}
+
+autoctono {
+    display: block;
+}
+
+autoctono::before {
+    content: ">";
+    padding-left: 10px;
+    padding-right: 5px;
+    display: inline;
+}
+
+autoctono::after {
+    content: " (Autoctono)";
+    display: inline
+}
+
+segundo {
+    display: block;
+}
+
+segundo::before {
+    content: ">";
+    padding-left: 10px;
+    padding-right: 5px;
+    display: inline;
+}
+
+segundo::after {
+    content: " (Segundo)";
+    display: inline
+}
+
+departamentos::before {
+    padding-top: 10px;
+    content: "Departamentos: ";
+    display: block;
+}
+
+departamento {
+    display: block;
+}
+
+departamento::before {
+    font-weight: bold;
+    padding-top: 10px;
+    content: "* "attr(nombre);
+    padding-left: 10px;
+    display: inline;
+}
+
+cabecera {
+    padding-left: 41px;
+    display: block;
+}
+
+cabecera::before {
+    content: "Cabecera: ";
+    display: inline;
+}
+
+habitantes {
+    padding-left: 41px;
+    display: block;
+}
+
+habitantes::before {
+    content: "Habitantes: ";
+    display: inline;
+}
+
+altura {
+    padding-left: 41px;
+    display: block;
+}
+
+altura::before {
+    content: "Altura: ";
+    display: inline;
+}
+
+areaT {
+    padding-left: 41px;
+    display: block;
+}
+
+areaT::before {
+    content: "Area: ";
+    display: inline;
+}
+
+areaT::after {
+    content: " "attr(medida);
+    display: inline;
+}
