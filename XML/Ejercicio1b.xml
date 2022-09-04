@@ -14,7 +14,7 @@
 <direccion>Calle de Los Andes</direccion>
 <telefono celular="false">22005000</telefono>
 <email>df20007@ues.edu.sv</email>
-<urlWebsitePersonal>http://xlm.df20007.tpi</urlWebsitePersonal>
+<urlWebsitePersonal>https://aled24.github.io/tarea21c/</urlWebsitePersonal>
 </ficha>
 
 <ficha id="3" fechaingreso="30/08/2022">
@@ -23,7 +23,7 @@
 <direccion>Calle de Los Andes</direccion>
 <telefono celular="false">22005000</telefono>
 <email>TR18002@ues.edu.sv</email>
-<urlWebsitePersonal>http://xlm.TR18002.tpi</urlWebsitePersonal>
+<urlWebsitePersonal>http://www.TR18002.com</urlWebsitePersonal>
 <dui vencido="true">023586713</dui>
 <isss>2356870</isss>
 <afp sucursal="Crecer">135985552547</afp>
